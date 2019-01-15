@@ -1,0 +1,20 @@
+name: Markit Media Theme
+type: theme
+description: Custom theme created for Markit Media website
+core: 8.x
+# Defines the base theme
+base theme: bartik
+# Defines libraries group in which we can add css/js.
+libraries:
+- markit/global-styling
+# Regions
+regions:
+  top_header_bar: Top Header Bar
+  header: Header
+  navigation: Navigation
+  sub_head: Sub Header
+  system_message: System Message Area
+  content: Area Above Left and Right Side
+  content_left: Content Left Side
+  content_right: Content Right Side
+  footer: Footer
