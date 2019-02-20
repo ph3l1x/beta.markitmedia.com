@@ -1,4 +1,312 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    margin-top: 0px;
+}
+
+#page {
+    background: #CCC;
+}
+
+.top-header-bar {
+    background: linear-gradient(to bottom, rgba(68, 71, 75, 1) 0%, rgba(5, 5, 6, 1) 100%);
+}
+
+#domainSearch2 h1 {
+    font-size: 14px !important;
+    margin: 0 13px 0 0;
+    padding: 0;
+    float: left;
+    line-height: normal;
+}
+
+#domainSearch2 h1,
+#topBar ul.topNav li a {
+    font-family: Oswald, Helvetica, Arial, san-serif !important;
+    font-weight: 100;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#topBar {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 37px;
+}
+
+#domainSearch2 {
+    padding-top: 8px;
+    height: 22px;
+}
+
+#domainSearch2 input.bodyText {
+    padding: 3px;
+    height: 21px;
+    width: 240px;
+    font-size: 12px;
+    margin-right: 10px;
+    float: left;
+    color: #3d3d3d;
+    border: 1px solid #ccc;
+}
+
+#topNav {
+    float: right;
+    list-style: none;
+}
+
+ul.topNav {
+    list-style: none;
+    padding-top: 8px;
+}
+
+ul.topNav > li {
+    float: left;
+}
+
+ul.topNav > li:nth-child(1) {
+    margin-right: 23px;
+}
+
+#domainSearch2 .searchBtn {
+    margin-left: 9px;
+}
+
+#header > div > div > div > a > img {
+    width: 100%;
+}
+
+.iconx {
+    position: absolute;
+}
+
+.icon-container {
+    position: relative;
+}
+
+.iconx.support {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+}
+
+.icon-sql {
+    left: 149px;
+    top: 7px;
+}
+
+.icon-wordpress {
+    left: 217px;
+    top: 10px;
+}
+
+.icon-magento {
+    top: 10px;
+    left: 81px;
+}
+
+.icon-google {
+    left: 252px;
+    top: 52px;
+}
+
+.icon-drupal {
+    left: 47px;
+    top: 49px;
+}
+
+.icon-bing {
+    left: 217px;
+    top: 94px;
+}
+
+.icon-php {
+    left: 81px;
+    top: 94px;
+}
+
+.icon-godaddy {
+    left: 149px;
+    top: 98px;
+}
+
+.call-today {
+    background: url(/themes/markit/images/call-button.png);
+    background-repeat: no-repeat;
+    height: 105px;
+    position: relative;
+    top: 28px;
+}
+
+.call-text-container {
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    right: 60px;
+    top: 11px;
+}
+
+.call-text.text1 {
+    margin-bottom: 5px;
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+.navbar-default {
+    width: 100%;
+}
+
+.navbar {
+    min-height: inherit;
+    margin-bottom: 0;
+    border: none;
+    background: linear-gradient(to bottom, rgba(68, 71, 75, 1) 0%, rgba(5, 5, 6, 1) 100%);
+    border-radius: 0;
+}
+
+.we-mega-menu-ul > .we-mega-menu-li {
+    border-left: 0;
+    position: relative;
+}
+
+.we-mega-menu-ul > .we-mega-menu-li > a {
+    background-color: inherit;
+    color: white;
+    font-family: 'Swiss 721';
+    font-size: 24px;
+    padding:21px;
+}
+
+.we-mega-menu-ul > .we-mega-menu-li > a:hover,
+.we-mega-menu-ul > .we-mega-menu-li.active-trail > a, .we-mega-menu-ul > .we-mega-menu-li.active-trail > a:hover {
+    background: linear-gradient(to bottom, rgba(237, 105, 69, 1) 0%, rgba(198, 44, 30, 1) 100%) !important;
+    color: white;
+    position: relative;
+}
+
+.we-mega-menu-ul > .we-mega-menu-li.active > a {
+    background: linear-gradient(to bottom, rgba(237, 105, 69, 1) 0%, rgba(198, 44, 30, 1) 100%) !important;
+    color: white;
+}
+
+.we-mega-menu-li.active > a:before {
+    content: " ";
+    width: 14px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ul.we-mega-menu-ul {
+    justify-content: center;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+    .container {
+        max-width: 290px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+    .container {
+        max-width: 450px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 738px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 962px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1970px;
+    }
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    #domainSearch2 h1 {
+        margin: 0 9px 0 0;
+    }
+
+    #domainSearch2 input.bodyText {
+        width: 110px;
+        margin-right: 7px;
+    }
+
+    #domainSearch2 select {
+        width: 58px;
+    }
+
+    #domainSearch2 .searchBtn {
+        margin-left: 9px;
+    }
+
+    #topBar ul.topNav {
+        margin-top: 0;
+        padding-left: 0 !important
+    }
+
+    #topBar .col-sm-4 {
+        padding-left: 0;
+    }
+
+    #topBar .col-sm-8 {
+        padding-right: 0;
+    }
+
+    ul.topNav > li:nth-child(1) {
+        margin-right: 14px;
+    }
+
+    ul.topNav li {
+        font-size: 12px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .top-header-bar {
+        display: none;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
 }

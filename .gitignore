@@ -3,3 +3,4 @@
 composer.lock
 .idea/*
 sites/default/files/*
+delete.php

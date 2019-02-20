@@ -1,0 +1,8 @@
+<?php
+
+
+function markit_preprocess_page(&$variables) {
+
+//    kint($variables);
+//    var_dump("XXXXXX");
+}
